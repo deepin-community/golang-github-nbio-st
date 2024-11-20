@@ -1,5 +1,22 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-nbio-st (0.0~git20140626.e9e8d98-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-nbio-st-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 25 Nov 2022 01:09:27 +0000
+
+golang-github-nbio-st (0.0~git20140626.e9e8d98-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only upload for testing migration
+  * Exclude readme when building
+  * Update Standards-Version to 4.5.1 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 22 Jan 2021 22:56:41 +0800
+
+golang-github-nbio-st (0.0~git20140626.e9e8d98-1) unstable; urgency=medium
+
+  * Initial release (Closes: #975341)
+  * add patch to comment tests that are expected to fail
+
+ -- Félix Sipma <felix+debian@gueux.org>  Fri, 20 Nov 2020 18:28:38 +0100
